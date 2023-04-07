@@ -4,6 +4,11 @@ const User = require("./User");
 const app = express();
 const PORT = process.env.PORT || 8081;
 
+app.get("/", async (req, res) => {
+	res.send("Hello Node js");
+	res.end();
+});
+
 app.get("/users/:userId", async (req, res) => {
 	try {
 		const user = await User.findOne({
