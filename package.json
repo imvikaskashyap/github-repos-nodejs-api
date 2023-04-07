@@ -1,10 +1,11 @@
 {
-  "name": "github-repos-nodejs-api",
+  "name": "cpd-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build":"npm i"
   },
   "keywords": [],
   "author": "",
